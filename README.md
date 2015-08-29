@@ -7,7 +7,11 @@ This is a simple android library for multi autocomplete textview chip text/bubbl
 sample code
 
   autoCompleteTextView = (MultiAutoCompleteTextView) findViewById(R.id.MultitextView_sample);
+  
   ChipBubbleText cp = new ChipBubbleText(MainActivity.this, autoCompleteTextView, values, 1);
+  
   cp.setChipColor("#9999FF");
+  
   cp.setChipTextSize(20);
+  
   cp.initialize();
