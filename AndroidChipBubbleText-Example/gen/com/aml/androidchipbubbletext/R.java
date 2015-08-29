@@ -14,10 +14,10 @@ public final class R {
 		public static final int textview_background_right_corners_round = 0x7f02003e;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f050000;
+		public static final int app_name = 0x7f0a0011;
 	}
 	public static final class style {
-		public static final int AppBaseTheme = 0x7f060000;
-		public static final int AppTheme = 0x7f060001;
+		public static final int AppBaseTheme = 0x7f0b011b;
+		public static final int AppTheme = 0x7f0b011c;
 	}
 }
