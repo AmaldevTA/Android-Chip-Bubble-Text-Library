@@ -8,7 +8,10 @@ sample code
 
   autoCompleteTextView = (MultiAutoCompleteTextView) findViewById(R.id.MultitextView_sample);
   
-  ChipBubbleText cp = new ChipBubbleText(MainActivity.this, autoCompleteTextView, values, 1);
+  String[] values = {"coutinho","suarez","messi","ronaldo","silva","aguero"};
+  
+  int threshold = 2; 
+  ChipBubbleText cp = new ChipBubbleText(MainActivity.this, autoCompleteTextView, values, threshold);
   
   cp.setChipColor("#9999FF");
   
