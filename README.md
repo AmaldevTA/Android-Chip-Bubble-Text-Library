@@ -11,6 +11,7 @@ sample code
   String[] values = {"coutinho","suarez","messi","ronaldo","silva","aguero"};
   
   int threshold = 2; 
+  
   ChipBubbleText cp = new ChipBubbleText(MainActivity.this, autoCompleteTextView, values, threshold);
   
   cp.setChipColor("#9999FF");
